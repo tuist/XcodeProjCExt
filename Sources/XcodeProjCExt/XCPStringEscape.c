@@ -1,10 +1,10 @@
-#include <stdlib.h>
-#include <stddef.h>
-#include <ctype.h>
-#include <string.h>
-#include <stdbool.h>
+#import <stdlib.h>
+#import <stddef.h>
+#import <ctype.h>
+#import <string.h>
+#import <stdbool.h>
 
-#include "XCPStringEscape.h"
+#import "XCPStringEscape.h"
 
 const char *XCPEscapedString(const char *string) {
     size_t length = strlen(string);
