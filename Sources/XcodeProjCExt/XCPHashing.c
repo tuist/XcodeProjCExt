@@ -27,5 +27,6 @@ const char *XCPComputeMD5(const char *data, int length) {
         hex[i * 2] = toHex(n / 16);
         hex[i * 2 + 1] = toHex(n % 16);
     }
+    hex[CC_MD5_DIGEST_LENGTH * 2] = '\0';
     return hex;
 }
