@@ -1,7 +1,7 @@
 import XCTest
 
-import PathKitCExtTests
+import XcodeProjCExtTests
 
 var tests = [XCTestCaseEntry]()
-tests += PathKitCExtTests.allTests()
+tests += XcodeProjCExtTests.allTests()
 XCTMain(tests)

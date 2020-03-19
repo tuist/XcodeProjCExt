@@ -3,20 +3,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "PathKitCExt",
+    name: "XcodeProjCExt",
     products: [
         .library(
-            name: "PathKitCExt",
-            targets: ["PathKitCExt"]),
+            name: "XcodeProjCExt",
+            targets: ["XcodeProjCExt"]),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "PathKitCExt",
+            name: "XcodeProjCExt",
             dependencies: []),
         .testTarget(
-            name: "PathKitCExtTests",
-            dependencies: ["PathKitCExt"]),
+            name: "XcodeProjCExtTests",
+            dependencies: ["XcodeProjCExt"]),
     ]
 )
