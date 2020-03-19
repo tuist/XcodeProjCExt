@@ -39,6 +39,9 @@ const char *XCPEscapedString(const char *string) {
                 escaped[curr++] = string[i];
         }
     }
+
+    // nil-terminate it temporarily for use wth strstr
+    escaped[curr] = '\0';
     if (strstr(escaped, "//") || strstr(escaped, "___")) {
         needsQuoting = true;
     }
