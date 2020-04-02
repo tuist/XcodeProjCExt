@@ -3,3 +3,7 @@
 /Packages
 /*.xcodeproj
 xcuserdata/
+XcodeProjCExt.framework.zip
+!XcodeProjCExt.xcodeproj
+*.xcworkspace
+Carthage/
