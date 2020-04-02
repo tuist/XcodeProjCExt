@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-    s.name             = "XcodeProjCExt.podspec"
+    s.name             = "XcodeProjCExt"
     s.version          = "0.1.0"
     s.summary          = "C-family extensions for XcodeProj"
     s.homepage         = "https://github.com/tuist/XcodeProjCExt"
