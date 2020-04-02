@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D058CFFA72806E14862CCE6 /* XcodeProjCExt.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F7544EBF9CC95D143CD3B5 /* XcodeProjCExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10FA419CD9127180E42619E4 /* XCPStringEscape.c in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA9D29E377D6D9B6DE33EF /* XCPStringEscape.c */; };
 		3ABE377141EA8FCEA844776E /* XCPHashing.c in Sources */ = {isa = PBXBuildFile; fileRef = E39DC61FFD8F0A2399407B3B /* XCPHashing.c */; };
 		BB037EA3A6BBAD04E5C9C8E3 /* XCPStringEscape.h in Headers */ = {isa = PBXBuildFile; fileRef = 9155A444258AA6EF35314870 /* XCPStringEscape.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		3ADA9D29E377D6D9B6DE33EF /* XCPStringEscape.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = XCPStringEscape.c; sourceTree = "<group>"; };
+		54F7544EBF9CC95D143CD3B5 /* XcodeProjCExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeProjCExt.h; sourceTree = "<group>"; };
 		5EE77DBDBE2BB4A045AC7965 /* XCPHashing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPHashing.h; sourceTree = "<group>"; };
 		7231277266A414D113D7FD5B /* XcodeProjCExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XcodeProjCExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9155A444258AA6EF35314870 /* XCPStringEscape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCPStringEscape.h; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		3897055E729CA5AAC00FE0A3 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				54F7544EBF9CC95D143CD3B5 /* XcodeProjCExt.h */,
 				5EE77DBDBE2BB4A045AC7965 /* XCPHashing.h */,
 				9155A444258AA6EF35314870 /* XCPStringEscape.h */,
 			);
@@ -130,6 +133,7 @@
 			files = (
 				E312C0001955FFF9B133D9C5 /* XCPHashing.h in Headers */,
 				BB037EA3A6BBAD04E5C9C8E3 /* XCPStringEscape.h in Headers */,
+				0D058CFFA72806E14862CCE6 /* XcodeProjCExt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
