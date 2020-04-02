@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.swift_version = "5.1"
     s.osx.deployment_target = '10.10'
   
-    s.source_files = "Sources/**/*.{c}"
+    s.source_files = "Sources/**/*"
     s.public_header_files = 'Sources/**/*.h'
   end
   
